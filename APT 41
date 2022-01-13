@@ -1,40 +1,26 @@
-# <H1> <B> Advance Presistent Threat Notes </B> </H1>
+# Advance Presistent Threat Notes
+
+## APT 41 a.K.A  Double Dragon ( A Dual Espionage and Cyber Crime Operation)
+
+APT41 uniquely balances espionage activity concurrently with financially motivated activity driven by personal gain.Since 2012 FireEye has observed APT41 conduct in a wide range of operations including data theft, innovative supply-chain attacks, and the use of unique tools and targeting techniques.
+
+## Attack LifeCycle
 
 
-<H2> <i> APT 41 a.K.A  Double Dragon ( A Dual Espionage and Cyber Crime Operation ) </i> </H2>
+## MITRE Attack Mapping 
 
-<P> 
-APT41 uniquely balances espionage activity concurrently with financially motivated activity driven by personal gain.   
-Since 2012 FireEye has observed APT41 conduct in a wide range of operations including data theft, innovative supply-chain attacks, and the use of unique tools and targeting techniques.
-</P>
+## Risk Graph
 
-<H2> <b> Attack LifeCycle </b> </H2> </BR>
+## Threat Cartegoraphy 
 
+## Tactics 
+ 
+## Technique 
 
-<H2> <b> MITRE Attack Mapping  </b> </H2> </BR>
+## Procedure 
 
-<H2> <b> Risk Graph </b> </H2>  </BR>
+## OBASHI 
 
-<H2> <b> Threat Cartegoraphy </b> </H2> </BR>
+## Remediation 
 
-<H2> <b>Tactics </b> </H2> <BR>
-
-
-<H2> <b> Technique </b> </H2>  </BR>
-
-Procedure 
-
-OBASHI 
-
-
-
-
-Remediation 
-
-Protection Measure 
-
-
-
-
-
-
+## Protection Measure 
