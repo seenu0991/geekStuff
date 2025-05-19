@@ -1,0 +1,89 @@
+Linux admin 
+
+chiffrement  linux : command : dm-crypt -device mapper crypt  
+
+LUKS ; linux unified key setup : front end funciton of dm crypt : support amovibles '(usb clé)
+
+chiffrer l'integralité du disque 
+----
+command : disk detecté : fdisk -l 
+sudo fdisk -l 
+logicil chiffré 
+apt install cryptsetup 
+command : shred -v -n  1 /dev/sbd
+                 --
+----           sudo   cryptsetup luksformat /dev/sdb 
+                yes majuscule 
+               cles sceret : toest
+                done 
+
+---
+dechifrer sudo cryptsetup luksopen /dev/sdb opt 
+ls -l /dev/mapper 
+sudo mkfs -t ext4 /dev/mapper/opt 
+cd /dev/mapper/opt 
+monter disk 
+nano /etc/fstable -> add /dev/mappter opt /opt ext4 defaults 0 0
+mount /opt 
+ls /opt 
+df /opt 
+---
+automatization
+nano ./etc/crypttab
+  opt  /dev/sdb  none luks
+save 
+--
+cd /opt 
+create file 
+rebbot 
+--
+Linux PAM :Pluggable authentication module 
+   
+    Function standard 
+     demander login :  etc/shaddow 
+                        etc/passwd 
+
+   function pam!
+   demander login ; PAM   : verification 
+
+    /etc/pam.d
+   etc/pam.d/login
+etc/pam.d/sshd 
+
+Module interface 
+control flag : decider l'action en fonction de status de module ( requuired, requisite, sufficient, optional, include)
+module argument 
+--
+module auth 
+module account 
+module password 
+module session
+ ----
+example PAM 
+apt install ssh
+
+apt update 
+
+----
+apt install module (libpam-dbus)
+
+nano /etc/pam.d/sshd
+  inside : auth required pam_dbus.so
+ctrl x 
+---
+shutdown -r now 
+---
+terminal 
+sudo 
+root
+exit
+ssh localhost
+yes
+modp 
+exit
+
+
+
+
+
+
