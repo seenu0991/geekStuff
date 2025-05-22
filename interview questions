@@ -1,0 +1,30 @@
+
+
+1what is the strategy for handling DDOS attack ? 
+
+Content delivery network provide DDOS protection 
+catche the information, it may reduce the workload 
+Nexgen Firewall - rate limit 
+Filter on ACL system 
+Application firewall 
+Firewall 
+
+2. How do you secure Remote access for employees and partner ?
+
+            Secure Remote access - sasse or vpn - encrypted (end point verification) provide privacy  
+             Full tunnel versu split tunnel : remote pc cannot use as an entry point 
+             zero trust: mfa 
+--------------------------------------------------------------------------------------------------
+3. Network Segmentation or Micro segmentation
+
+          Virtual LAN 
+          virtual private cloud : segment network 
+          segment network by firewall
+             
+             Reduce the blastrater : network segmentaton 
+
+             Micro segmentation : private VLAN 
+
+
+4. 
+             
